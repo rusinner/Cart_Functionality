@@ -5,7 +5,19 @@ import CartContainer from "./CartContainer";
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  // if (loading) {
+  //   return (
+  //     <div className="loading">
+  //       <h1>Loading...</h1>
+  //     </div>
+  //   );
+  // }
+  return (
+    <main>
+      <Navbar />
+      <CartContainer />
+    </main>
+  );
 }
 
 export default App;
